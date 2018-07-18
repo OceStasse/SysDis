@@ -15,5 +15,6 @@ import javax.ejb.Remote;
 public interface MySessionBeanRemote {
 
     String getPrenom(String Nom);
+    String doIt (String p);
     
 }
