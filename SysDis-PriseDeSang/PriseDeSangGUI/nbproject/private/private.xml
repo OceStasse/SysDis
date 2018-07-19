@@ -10,5 +10,8 @@
         <group name="SysDis-Version2">
             <file>file:/C:/Users/Windows10/Desktop/INPRES%20-%203e/sysdis/SysDis-PriseDeSang/PriseDeSangGUI/src/java/applicationmedecin/ConnectionGUI.java</file>
         </group>
+        <group>
+            <file>file:/C:/Users/nicol/OneDrive/Documents/GitHub/SysDis/SysDis-PriseDeSang/PriseDeSangGUI/src/java/applicationmedecin/MedecinGUI.java</file>
+        </group>
     </open-files>
 </project-private>
