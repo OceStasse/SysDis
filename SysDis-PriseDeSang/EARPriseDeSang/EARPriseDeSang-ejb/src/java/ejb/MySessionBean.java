@@ -4,11 +4,15 @@ package ejb;
 import entities.Analyse;
 import entities.Patient;
 import static java.lang.System.exit;
+import java.security.Principal;
 import java.util.Iterator;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.annotation.Resource;
+import javax.annotation.security.DeclareRoles;
+import javax.annotation.security.RolesAllowed;
+import javax.ejb.SessionContext;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.jms.Connection;
@@ -28,6 +32,7 @@ import javax.persistence.Query;
 
 
 @Stateless
+@DeclareRoles("arole")
 public class MySessionBean implements MySessionBeanRemote {
 
 //    @Resource(mappedName = "jms/AnalyseQueue")
@@ -39,6 +44,8 @@ public class MySessionBean implements MySessionBeanRemote {
     
     private static Connection connection = null;
     private static Session session = null;
+    
+    @Resource SessionContext ctx;
     
     private MessageProducer producer = null;
     private MessageConsumer consumer = null;
@@ -99,7 +106,7 @@ public class MySessionBean implements MySessionBeanRemote {
     public String RecupererPatient() {
         
         String PatientList = null;
-        System.out.println("PASSE");
+                
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("EJBRemoteInterfacePU");
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
@@ -143,6 +150,29 @@ public class MySessionBean implements MySessionBeanRemote {
 
         em.close();
         emf.close();
+    }
+
+    @Override
+    @RolesAllowed("arole")
+    public boolean ConnectMedecin(String login, String password) 
+    {
+        if(ctx.isCallerInRole("arole"))
+        {
+            Principal callerPrincipal = ctx.getCallerPrincipal();
+            if(callerPrincipal.getName().equals(login))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    @Override
+    @RolesAllowed("arole")
+    public boolean ConnectLaborantin(String login, String password) 
+    {
+        return true;
     }
     
 }
