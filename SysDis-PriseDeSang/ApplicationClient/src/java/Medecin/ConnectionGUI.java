@@ -105,7 +105,7 @@ public class ConnectionGUI extends javax.swing.JFrame {
         // TODO add your handling code here:
 
         if(TextLogin.getText().isEmpty() || TextPassword.getText().isEmpty())
-        MessageErreur.setText("Attention, le login et/ou le password ne doit pas etre vide");
+            MessageErreur.setText("Attention, le login et/ou le password ne doit pas etre vide");
         else
         {
             for(String key: MedecinsLogin.keySet())
