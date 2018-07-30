@@ -8,9 +8,6 @@
         <group>
             <file>file:/C:/Users/nicol/OneDrive/Documents/GitHub/SysDis/SysDis-PriseDeSang/PriseDeSangGUI/src/java/applicationmedecin/MedecinGUI.java</file>
         </group>
-        <group name="SysDisExam">
-            <file>file:/C:/Users/Windows10/Documents/GitHub/SysDis/SysDis-PriseDeSang/PriseDeSangGUI/src/java/applicationmedecin/Main.java</file>
-            <file>file:/C:/Users/Windows10/Documents/GitHub/SysDis/SysDis-PriseDeSang/PriseDeSangGUI/src/java/applicationmedecin/MedecinGUI.java</file>
-        </group>
+        <group name="SysDisExam"/>
     </open-files>
 </project-private>

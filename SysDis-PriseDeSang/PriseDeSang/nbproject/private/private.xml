@@ -9,8 +9,6 @@
             <file>file:/C:/Users/Windows10/Desktop/INPRES%20-%203e/sysdis/SysDis-PriseDeSang/PriseDeSang/src/DataBaseUtilities/DataBaseUtilities.java</file>
             <file>file:/C:/Users/Windows10/Desktop/INPRES%20-%203e/sysdis/SysDis-PriseDeSang/PriseDeSang/src/AuthentificationEJB/SessionBeanRemote.java</file>
         </group>
-        <group name="SysDisExam">
-            <file>file:/C:/Users/Windows10/Documents/GitHub/SysDis/SysDis-PriseDeSang/PriseDeSang/src/prisedesang/PriseDeSangGUI.java</file>
-        </group>
+        <group name="SysDisExam"/>
     </open-files>
 </project-private>
