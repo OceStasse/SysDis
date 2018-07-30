@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="BloodTest-ear">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="BloodTestLibrary.jar" deploy-path="/lib" handle="module:/resource/BloodTestLibrary/BloodTestLibrary">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EJBPatient.jar" deploy-path="/" handle="module:/resource/EJBPatient/EJBPatient">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EJBAnalyse.jar" deploy-path="/" handle="module:/resource/EJBAnalyse/EJBAnalyse">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="WSPatient.war" deploy-path="/" handle="module:/resource/WSPatient/WSPatient">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

@@ -3,6 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group/>
+<<<<<<< HEAD
         <group name="SysDisExam"/>
+=======
+        <group name="SysDisExam">
+            <file>file:/C:/Users/Windows10/Documents/GitHub/SysDis/SysDis-PriseDeSang/EARPriseDeSang/EARPriseDeSang-ejb/src/java/ejb/MySessionBean.java</file>
+            <file>file:/C:/Users/Windows10/Documents/GitHub/SysDis/SysDis-PriseDeSang/EARPriseDeSang/EARPriseDeSang-ejb/src/java/entities/Patient.java</file>
+        </group>
+<<<<<<< HEAD
+        <group>
+            <file>file:/C:/Users/nicol/OneDrive/Documents/GitHub/SysDis/SysDis-PriseDeSang/EARPriseDeSang/EARPriseDeSang-ejb/src/java/ejb/MySessionBean.java</file>
+        </group>
+=======
+>>>>>>> caa5406f152304fd1e3461c318942e2ad408e629
+>>>>>>> a88bdcaa40d1e33faf58e29aea1cf6bf637619bb
     </open-files>
 </project-private>
