@@ -2,8 +2,12 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
             <file>file:/C:/Users/nicol/OneDrive/Documents/GitHub/SysDis/SysDis-PriseDeSang/EARPriseDeSang/setup/glassfish-resources.xml</file>
         </group>
+=======
+        <group name="SysDisExam"/>
+>>>>>>> caa5406f152304fd1e3461c318942e2ad408e629
     </open-files>
 </project-private>

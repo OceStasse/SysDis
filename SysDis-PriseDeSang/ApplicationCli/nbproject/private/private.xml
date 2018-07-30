@@ -2,15 +2,16 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group name="SysDisExam">
-            <file>file:/C:/Users/Windows10/Desktop/sysdis/SysDis-PriseDeSang/ApplicationCli/src/java/applicationcli/Main.java</file>
-        </group>
         <group name="SysDis-Version2">
             <file>file:/C:/Users/Windows10/Desktop/INPRES%20-%203e/sysdis/SysDis-PriseDeSang/ApplicationCli/src/java/applicationcli/Main.java</file>
         </group>
+<<<<<<< HEAD
         <group>
             <file>file:/C:/Users/nicol/OneDrive/Documents/GitHub/SysDis/SysDis-PriseDeSang/ApplicationCli/src/conf/application-client.xml</file>
             <file>file:/C:/Users/nicol/OneDrive/Documents/GitHub/SysDis/SysDis-PriseDeSang/ApplicationCli/src/java/applicationcli/Main.java</file>
         </group>
+=======
+        <group name="SysDisExam"/>
+>>>>>>> caa5406f152304fd1e3461c318942e2ad408e629
     </open-files>
 </project-private>
