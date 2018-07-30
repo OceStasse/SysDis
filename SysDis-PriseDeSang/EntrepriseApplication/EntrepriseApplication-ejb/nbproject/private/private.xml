@@ -9,10 +9,11 @@
             <file>file:/C:/Users/Windows10/Desktop/sysdis/SysDis-PriseDeSang/EntrepriseApplication/EntrepriseApplication-ejb/src/java/entities/Personne.java</file>
         </group>
         <group>
-            <file>file:/C:/Users/nicol/OneDrive/Documents/GitHub/SysDis/SysDis-PriseDeSang/EntrepriseApplication/EntrepriseApplication-ejb/setup/glassfish-resources.xml</file>
-            <file>file:/C:/Users/nicol/OneDrive/Documents/GitHub/SysDis/SysDis-PriseDeSang/EntrepriseApplication/EntrepriseApplication-ejb/src/conf/MANIFEST.MF</file>
             <file>file:/C:/Users/nicol/OneDrive/Documents/GitHub/SysDis/SysDis-PriseDeSang/EntrepriseApplication/EntrepriseApplication-ejb/src/java/SessionBean/MySessionBean.java</file>
             <file>file:/C:/Users/nicol/OneDrive/Documents/GitHub/SysDis/SysDis-PriseDeSang/EntrepriseApplication/EntrepriseApplication-ejb/src/conf/persistence.xml</file>
+            <file>file:/C:/Users/nicol/OneDrive/Documents/GitHub/SysDis/SysDis-PriseDeSang/EntrepriseApplication/EntrepriseApplication-ejb/src/conf/glassfish-ejb-jar.xml</file>
+            <file>file:/C:/Users/nicol/OneDrive/Documents/GitHub/SysDis/SysDis-PriseDeSang/EntrepriseApplication/EntrepriseApplication-ejb/setup/glassfish-resources.xml</file>
+            <file>file:/C:/Users/nicol/OneDrive/Documents/GitHub/SysDis/SysDis-PriseDeSang/EntrepriseApplication/EntrepriseApplication-ejb/src/conf/MANIFEST.MF</file>
         </group>
     </open-files>
 </project-private>

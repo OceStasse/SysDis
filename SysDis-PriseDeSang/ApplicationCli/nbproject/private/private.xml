@@ -8,5 +8,9 @@
         <group name="SysDis-Version2">
             <file>file:/C:/Users/Windows10/Desktop/INPRES%20-%203e/sysdis/SysDis-PriseDeSang/ApplicationCli/src/java/applicationcli/Main.java</file>
         </group>
+        <group>
+            <file>file:/C:/Users/nicol/OneDrive/Documents/GitHub/SysDis/SysDis-PriseDeSang/ApplicationCli/src/conf/application-client.xml</file>
+            <file>file:/C:/Users/nicol/OneDrive/Documents/GitHub/SysDis/SysDis-PriseDeSang/ApplicationCli/src/java/applicationcli/Main.java</file>
+        </group>
     </open-files>
 </project-private>
